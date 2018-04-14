@@ -39,3 +39,9 @@ Nozzle offset Y: 0
 
 Extruder start and end gcode: nothing
 
+Axis
+-----------------
+X: 6000 mm/min
+Y: 6000 mm/min
+Z: 200mm/min
+E: 300mm/min
