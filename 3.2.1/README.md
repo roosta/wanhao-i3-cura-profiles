@@ -32,6 +32,8 @@ Wall thickness         | 1.2mm    |
 Z seam alignment       | shortest | 
 
 #### Infill
+Name                   | Value    | Note
+-----------------------|----------|--------
 Infill density         | 25%      | I find that increasing this reduces pillowing somewhat but consider a new fan duct and fan if this problem is persistent
 Infill Line distance   | 0.8mm    |
 Connect infill lines   | True     |
