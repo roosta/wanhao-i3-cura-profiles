@@ -35,8 +35,6 @@ Z seam alignment       | shortest |
 Name                   | Value    | Note
 -----------------------|----------|--------
 Infill density         | 25%      | I find that increasing this reduces pillowing somewhat but consider a new fan duct and fan if this problem is persistent
-Infill Line distance   | 0.8mm    |
-Connect infill lines   | True     |
 Infill layer thickness | 0.15mm   |
 
 #### Material
@@ -52,7 +50,6 @@ Name                         | Value      | Note
 -----------------------------|------------|--------
 Print speed                  | 40mm/s     | Reduce for better quality overall, I'm pretty sure the i3 can handle faster but I prefer it at 40
 Travel speed                 | 150mm/s    | 
-Initial layer travel speed   | calculated | 
 
 #### Cooling
 Name                         | Value      | Note
