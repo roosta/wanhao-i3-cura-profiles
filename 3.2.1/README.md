@@ -35,13 +35,12 @@ Z seam alignment       | shortest |
 Name                   | Value    | Note
 -----------------------|----------|--------
 Infill density         | 25%      | I find that increasing this reduces pillowing somewhat but consider a new fan duct and fan if this problem is persistent
-Infill layer thickness | 0.15mm   |
 
 #### Material
 Name                         | Value    | Note
 -----------------------------|----------|--------
 Default printing temperature | 220 C    | Reduce slightly to improve smaller parts and overhangs 
-Diameter                     | 1.75mm   | Important, should be set in machine settings and reflected here
+Diameter                     | 1.75mm   | IMPORTANT, should be set in machine settings and reflected here
 Retraction distance          | 1.1mm    | For the all metal hotend. Revert to 6.5mm for stock i3 hotend
 Retraction speed             | 60mm     | For the all metal hotend. Revert to 25mm for stock i3 hotend
 
@@ -66,9 +65,8 @@ Name                     | Value      | Note
 -------------------------|------------|--------
 Skirt line count         | 2          |
 Raft top layer thickness | 0.15mm     |
-Raft middle thickness    | 0.225mm    |
-Raft base thickness      | 0.18mm     |
-Raft print speed         | 0.20mm/s   |
+Raft fan speed           | 100%       | IMPORTANT for all metal hotend. Had problems with jamming on large prints with rafts and eventually fixed it by turning on this. 
+
 
 The rest of the settings are stock Cura fine quality PLA profile values.
 
